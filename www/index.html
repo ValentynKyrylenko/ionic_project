@@ -33,8 +33,7 @@
       </ion-header-bar>
       <ion-content>
         <ion-refresher
-                pulling-text="Pull to refresh..."
-                on-refresh="loadNewerStories()">
+                pulling-text="Pull to refresh...">
         </ion-refresher>
         <div class="list">
         <a class="item item-avatar-left item-text-wrap" href="{{story.url}}"  target="_blank" ng-repeat = "story in stories track by story.id">
